@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Icono de Adivínalo</title>
+  <desc id="desc">Icono con fondo oscuro, círculo verde y amarillo y un signo de interrogación.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f1b17" />
+      <stop offset="55%" stop-color="#101010" />
+      <stop offset="100%" stop-color="#0d0d0d" />
+    </linearGradient>
+    <radialGradient id="halo" cx="35%" cy="28%" r="70%">
+      <stop offset="0%" stop-color="#1d3a30" stop-opacity=".9" />
+      <stop offset="100%" stop-color="#0d0d0d" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="badge" x1="25%" y1="15%" x2="75%" y2="85%">
+      <stop offset="0%" stop-color="#00ff88" />
+      <stop offset="100%" stop-color="#ffd600" />
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="132" fill="url(#bg)" />
+  <circle cx="190" cy="160" r="220" fill="url(#halo)" />
+  <circle cx="256" cy="256" r="170" fill="url(#badge)" />
+  <circle cx="256" cy="256" r="130" fill="#121212" opacity=".08" />
+
+  <path
+    fill="#121212"
+    d="M254 136c-60 0-102 35-102 85h50c0-22 20-37 49-37s49 16 49 40c0 21-16 32-39 46-32 18-74 41-74 96v11h50v-8c0-31 17-42 41-56 30-18 71-42 71-96 0-49-38-81-95-81Z"
+  />
+  <circle cx="256" cy="390" r="24" fill="#121212" />
+</svg>
